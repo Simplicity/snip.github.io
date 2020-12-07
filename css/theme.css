@@ -1,0 +1,304 @@
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(247, 166, 145);
+  color: white;
+  justify-content: center;
+}
+
+body * {
+  font-weight: lighter;
+}
+
+em {
+  font-style: normal;
+  color: rgb(100, 174, 235);
+  white-space: nowrap;
+}
+
+code {
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  width: 100%;
+
+  /* Hack for Safari: keep aspect ratio of image */
+  align-self: center;
+}
+
+.nav-outer {
+  flex-grow: 1;
+  max-width: 55em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo > img {
+  height: 3em;
+  width: 3em;
+}
+
+.nav-logo > span {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+.top-navigation {
+  height: 7em;
+}
+
+.nav-account a {
+  border: 1px solid white;
+  padding: 0.33em;
+  border-radius: 0.25em;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.slogan-1 span {
+  white-space: nowrap;
+}
+
+.big-screenshot {
+  width: 1317px;
+}
+
+.header-download-row {
+  display: flex;
+}
+
+.header-download-button {
+  font-size: 0.9em;
+  display: flex;
+  border: 1px solid white;
+  padding: 0.75em;
+  padding-bottom: 0.5em;
+  border-radius: 0.25em;
+  align-items: center;
+  justify-content: center;
+  min-width: 8em;
+}
+
+.header-download-row a {
+  margin: 2em;
+  text-decoration: none;
+}
+
+.header-download-button > span {
+  margin-bottom: 0.25em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section:nth-child(odd) {
+  background-color: rgb(255, 246, 244);
+  color: rgb(247, 166, 145);
+}
+
+section:nth-child(odd) a {
+  color: rgb(247, 166, 145);
+}
+
+section:only-of-type {
+  background-color: rgb(255, 246, 244);
+  color: rgb(247, 166, 145);
+  min-height: calc(100vh - 14em);
+}
+
+section:only-of-type a {
+  color: rgb(247, 166, 145);
+}
+
+.section-row {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex;
+  flex-grow: 1;
+  max-width: 65em;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-tile {
+  padding: 1em;
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  flex: 1;
+  text-align: center;
+}
+
+.snippet-examples-row {
+  margin-left: 10em;
+}
+
+.snippet-examples-row img {
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: -8em;
+}
+
+.snippet-examples-row img:nth-child(2) {
+  width: 210px;
+}
+
+.snippet-examples-row img:nth-child(3) {
+  width: 220px;
+}
+
+.snippet-examples-row img:nth-child(4) {
+  width: 240px;
+}
+
+.tags-tile {
+  flex: 1;
+}
+
+.tag-example {
+  font-size: 0.95em;
+  background-color: rgb(100, 174, 235);
+  color: white;
+  padding: 0.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 1em;
+}
+
+.tags-screenshot {
+  width: 329px;
+}
+
+.quick-access-example-tile {
+  flex: 1;
+}
+
+.quick-access-example-tile img {
+  width: 744px;
+}
+
+.vision-section-row {
+  width: 100%;
+  flex-direction: column;
+}
+
+.vision-section-grid {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 2.5em;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+.vision-row {
+  display: flex;
+}
+
+.vision-tile {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.vision-tile h1 {
+  font-size: 2.5em;
+  position: relative;
+}
+
+/* fix positioning issue of snip cloud banner */
+.h1-fix:first-of-type {
+  margin-bottom: 0;
+}
+
+.h1-fix:last-of-type {
+  margin-top: 0;
+}
+
+.snip-cloud-banner {
+  display: block;
+  position: absolute;
+  bottom: -0.75em;
+  right: -3em;
+  transform: rotateZ(-15deg);
+  font-size: 0.25em;
+  background-color: rgb(100, 174, 235);
+  color: white;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  opacity: 0.5;
+}
+
+.snip-cloud-banner::after {
+  content: "Snip Cloud";
+}
+
+footer {
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-tile a {
+  margin-right: 1em;
+}
+
+.footer-logo {
+  font-size: 0.75em;
+  margin-right: 5em;
+}
+
+.footer-tile {
+  display: flex;
+}

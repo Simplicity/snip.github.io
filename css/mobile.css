@@ -1,0 +1,83 @@
+/* TODO copy this to credentials forms */
+
+@media only screen and (max-width: 1537px) {
+  .big-screenshot {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 56em) {
+  .top-navigation {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .slogan-1 {
+    font-size: 1.75em;
+  }
+
+  .slogan-2 {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .vision-row {
+    flex-direction: column;
+  }
+
+  .section-row {
+    flex-direction: column;
+  }
+
+  section .section-row img {
+    width: 90%;
+  }
+
+  .snippet-examples-row {
+    flex-direction: column;
+    margin-left: 0em;
+    display: flex;
+    align-items: center;
+  }
+
+  section .snippet-examples-row img {
+    display: inline-block;
+    width: 40%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+  }
+
+  section .snippet-examples-row img:nth-child(2) {
+    width: 50%;
+    margin-top: -10em;
+  }
+
+  section .snippet-examples-row img:nth-child(3) {
+    width: 60%;
+    margin-top: -10em;
+  }
+
+  section .snippet-examples-row img:nth-child(4) {
+    width: 70%;
+    margin-top: -10em;
+  }
+
+  .footer-logo.footer-tile {
+    flex-direction: row;
+  }
+
+  .footer-tile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
