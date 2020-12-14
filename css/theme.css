@@ -30,7 +30,6 @@ nav {
 
 a {
   color: white;
-  text-decoration: none;
 }
 
 h1,
@@ -332,6 +331,7 @@ footer {
 
 .footer-tile a {
   margin-right: 1em;
+  text-decoration: none;
 }
 
 .footer-logo {
