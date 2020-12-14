@@ -134,7 +134,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: rgb(255, 246, 244);
+  background-color: white;
   color: rgb(247, 166, 145);
 }
 
@@ -143,7 +143,7 @@ section:nth-child(odd) a {
 }
 
 section:only-of-type {
-  background-color: rgb(255, 246, 244);
+  background-color: white;
   color: rgb(247, 166, 145);
   min-height: calc(100vh - 14em);
 }
