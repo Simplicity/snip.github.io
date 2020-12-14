@@ -162,6 +162,45 @@ section:only-of-type a {
   justify-content: center;
 }
 
+.section-row-informative h1 {
+  font-size: 3em;
+}
+
+.section-row-informative h2 {
+  font-size: 2em;
+}
+
+.section-row-informative h3 {
+  font-size: 1.5em;
+}
+
+.section-row-informative strong {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.15em;
+  display: block;
+  /* font-style: italic; */
+  /* font-size: 1.25em; */
+}
+
+.section-row-informative .section-tile {
+  /* align-items: baseline; */
+  display: block;
+}
+
+.section-row-informative .section-tile * {
+  text-align: left;
+}
+
+.section-row-informative p {
+  text-align: left;
+  max-width: 40em;
+}
+
+.section-row-informative ul {
+  max-width: 40em;
+}
+
 .section-tile {
   padding: 1em;
   border-radius: 0.25em;
