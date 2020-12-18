@@ -101,11 +101,11 @@ header {
   width: 1317px;
 }
 
-.header-download-row {
+.download-row {
   display: flex;
 }
 
-.header-download-button {
+.download-button {
   font-size: 0.9em;
   display: flex;
   border: 1px solid white;
@@ -117,13 +117,18 @@ header {
   min-width: 8em;
 }
 
-.header-download-row a {
+.download-row a {
   margin: 2em;
   text-decoration: none;
 }
 
-.header-download-button > span {
+.download-button > span {
   margin-bottom: 0.25em;
+}
+
+.download-button i {
+  margin-left: 0.25em;
+  margin-top: -3px;
 }
 
 section {
@@ -341,4 +346,14 @@ footer {
 
 .footer-tile {
   display: flex;
+}
+
+.warning-box {
+  border: 5px solid rgb(247, 166, 145);
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.windows-download .download-button {
+  border: 1px solid rgb(247, 166, 145);
 }

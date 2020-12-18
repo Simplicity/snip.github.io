@@ -19,6 +19,7 @@ listener = Listen.to('./templates') do
   compile("support", "Snip - Support", "Snip - Support")
   compile("privacy", "Snip - Privacy", "Snip - Privacy")
   compile("terms", "Snip - Terms", "Snip - Terms")
+  compile("windows", "Snip - Download for Windows", "Snip - Download for Windows")
 end
 
 listener.start
