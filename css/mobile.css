@@ -27,6 +27,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .download-row {
+    flex-direction: column;
+  }
+
   .vision-row {
     flex-direction: column;
   }
