@@ -166,12 +166,7 @@ section:nth-child(odd) {
 
 section:only-of-type {
   background-color: white;
-  color: rgb(247, 166, 145);
   min-height: calc(100vh - 14em);
-}
-
-section:only-of-type a {
-  color: rgb(247, 166, 145);
 }
 
 .section-row {
