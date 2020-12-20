@@ -15,7 +15,7 @@ end
 
 listener = Listen.to('./templates') do
   puts "compiling..."
-  compile("index", "Snip - The Notes App with a focus on productivity", "Snip - The Notes App with a focus on productivity. Snip is an alternative to Google Keep, Evernote, Notion, Bear, and other Notes Apps alike.")
+  compile("index", "Snip - The Notes App with a focus on privacy", "Snip - The Notes App with a focus on privacy. Snip is an alternative to Google Keep, Evernote, Notion, Bear, and other Notes Apps alike.")
   compile("support", "Snip - Support", "Snip - Support")
   compile("privacy", "Snip - Privacy", "Snip - Privacy")
   compile("terms", "Snip - Terms", "Snip - Terms")
