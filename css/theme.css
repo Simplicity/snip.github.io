@@ -2,14 +2,22 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
-  background-color: rgb(247, 166, 145);
-  color: white;
+  font-family: "Noto Sans HK";
+  background-color: rgb(246, 249, 250);
+  color: rgb(53, 63, 68);
   justify-content: center;
 }
 
 body * {
   font-weight: lighter;
+  letter-spacing: normal;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
 }
 
 em {
@@ -29,13 +37,22 @@ nav {
 }
 
 a {
-  color: white;
+  color: rgb(53, 63, 68);
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
+  font-family: "Poppins";
 }
 
 .image-wrapper {
@@ -56,6 +73,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Poppins";
 }
 
 .nav-logo {
@@ -78,7 +96,8 @@ h3 {
 }
 
 .nav-account a {
-  border: 1px solid white;
+  border: 1px solid hsl(355, 65%, 65%);
+  color: hsl(355, 65%, 65%);
   padding: 0.33em;
   border-radius: 0.25em;
   text-decoration: none;
@@ -90,7 +109,7 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 5em;
 }
 
 .slogan-1 span {
@@ -98,19 +117,21 @@ header {
 }
 
 .big-screenshot {
-  width: 1317px;
+  width: 1346px;
 }
 
 .download-row {
+  font-family: "Poppins";
   display: flex;
 }
 
 .download-button {
-  font-size: 0.9em;
+  font-size: 1em;
   display: flex;
-  border: 1px solid white;
+  border: 1px solid hsl(355, 65%, 65%);
+  color: hsl(355, 65%, 65%);
   padding: 0.75em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.33em;
   border-radius: 0.25em;
   align-items: center;
   justify-content: center;
@@ -136,15 +157,11 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: rgb(107, 112, 115);
 }
 
 section:nth-child(odd) {
   background-color: white;
-  color: rgb(247, 166, 145);
-}
-
-section:nth-child(odd) a {
-  color: rgb(247, 166, 145);
 }
 
 section:only-of-type {
@@ -184,8 +201,6 @@ section:only-of-type a {
   font-weight: bold;
   margin-bottom: 0.15em;
   display: block;
-  /* font-style: italic; */
-  /* font-size: 1.25em; */
 }
 
 .section-row-informative .section-tile {
@@ -218,6 +233,15 @@ section:only-of-type a {
   text-align: center;
 }
 
+.section-tile span {
+  font-size: 1.25em;
+  max-width: 19em;
+}
+
+.vision-tile > span {
+  font-size: 1.25em;
+}
+
 .snippet-examples-row {
   margin-left: 10em;
 }
@@ -247,18 +271,18 @@ section:only-of-type a {
   flex: 1;
 }
 
-.tag-example {
-  font-size: 0.95em;
+span.tag-example {
+  font-size: 0.75em;
   background-color: rgb(100, 174, 235);
   color: white;
-  padding: 0.1em;
+  padding-bottom: 0.1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   border-radius: 1em;
 }
 
 .tags-screenshot {
-  width: 329px;
+  width: 285px;
 }
 
 .quick-access-example-tile {
@@ -266,7 +290,7 @@ section:only-of-type a {
 }
 
 .quick-access-example-tile img {
-  width: 744px;
+  width: 752px;
 }
 
 .vision-section-row {
@@ -316,11 +340,12 @@ section:only-of-type a {
   transform: rotateZ(-15deg);
   font-size: 0.25em;
   background-color: rgb(100, 174, 235);
+  background-color: hsl(355, 65%, 65%);
   color: white;
   padding: 0.25em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .snip-cloud-banner::after {
@@ -341,7 +366,6 @@ footer {
 
 .footer-logo {
   font-size: 0.75em;
-  margin-right: 5em;
 }
 
 .footer-tile {
