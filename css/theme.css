@@ -239,6 +239,7 @@ section:only-of-type {
 
 .snippet-examples-row {
   margin-left: 10em;
+  padding-right: 1em;
 }
 
 .snippet-examples-row img {
@@ -297,7 +298,7 @@ span.tag-example {
   width: 100%;
   display: grid;
   grid-column-gap: 2.5em;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
 .vision-row {

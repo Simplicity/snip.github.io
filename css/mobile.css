@@ -49,6 +49,7 @@
   }
 
   .snippet-examples-row {
+    padding-right: 0em;
     flex-direction: column;
     margin-left: 0em;
     display: flex;
@@ -87,5 +88,11 @@
     font-size: 0.75em;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  div.section-row.quick-access-row {
+    flex-direction: column;
   }
 }
