@@ -280,6 +280,10 @@ span.tag-example {
   width: 285px;
 }
 
+.quick-access-row .section-tile span:first-of-type {
+  margin-bottom: 1em;
+}
+
 .quick-access-example-tile {
   flex: 1;
 }
