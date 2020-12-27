@@ -29,6 +29,12 @@ code {
   white-space: nowrap;
 }
 
+code,
+kbd,
+samp {
+  font-family: "Courier Prime", monospace;
+}
+
 nav {
   display: flex;
   justify-content: center;
