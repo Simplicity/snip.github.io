@@ -8,6 +8,11 @@ body {
   justify-content: center;
 }
 
+button,
+input {
+  font-family: "Noto Sans HK";
+}
+
 body * {
   letter-spacing: 0px;
   speak: none;
