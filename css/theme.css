@@ -303,6 +303,44 @@ span.tag-example {
   width: 752px;
 }
 
+.reminders-row {
+  flex-direction: column;
+}
+
+.reminders-sub-row {
+  display: flex;
+}
+
+.reminders-example-tile {
+  margin-bottom: 2em;
+}
+
+.reminders-expression-examples-tile-outer {
+  width: 95%;
+  padding-bottom: 2em;
+}
+
+.reminders-expression-examples-tile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+}
+
+.reminders-sub-row-tile {
+  flex: 1;
+}
+
+.reminders-example-video {
+  width: 100%;
+}
+
+.reminders-expression-example {
+  font-family: "Courier Prime", monospace;
+  margin: 1em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
 .vision-section-row {
   width: 100%;
   flex-direction: column;
@@ -369,6 +407,12 @@ footer {
   justify-content: center;
 }
 
+.footer-tile {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
 .footer-tile a {
   margin-right: 1em;
   text-decoration: none;
@@ -376,10 +420,6 @@ footer {
 
 .footer-logo {
   font-size: 0.75em;
-}
-
-.footer-tile {
-  display: flex;
 }
 
 .warning-box {
