@@ -116,7 +116,12 @@
     <script src="js/main.js"></script>
 
     <script>
-      fetch("https://api.getsnip.app/report/windows");
+      // setTimeout to let the page load first
+      setTimeout(() => {
+        fetch("https://api.getsnip.app/report/windows", {
+          mode: "no-cors",
+        });
+      }, 500);
     </script>
   </body>
 </html>
