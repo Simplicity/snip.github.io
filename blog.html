@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Snip Blog</title>
+    <meta name="description" content="Snip Blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <link rel="preload" href="privacy" as="document" />
+    <link rel="preload" href="support" as="document" />
+    <link rel="preload" href="terms" as="document" />
+  </head>
+
+  <body>
+    <nav class="top-navigation">
+      <div class="nav-outer">
+        <div class="nav-logo"><img src="icon.png" /><span>Snip</span></div>
+
+        <div class="nav-account">
+          <a href="cloud.html">Snip Cloud</a>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+  <div class="section-row">
+    <div class="section-tile">
+      <h1>Snip Blog</h1>
+
+      <span>Coming Soon.</span>
+    </div>
+  </div>
+
+  <div class="section-row">
+    <a href="/">Back</a>
+  </div>
+</section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-outer">
+          <div class="nav-logo footer-logo footer-tile">
+            <img src="icon.png" /><span>Snip</span>
+          </div>
+
+          <div class="footer-tile">
+            <a href="support">Support</a>
+            <a href="blog">Blog</a>
+          </div>
+
+          <div class="footer-tile">
+            <a href="terms">Terms</a>
+            <a href="privacy">Privacy Statement</a>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      // setTimeout to let the page load first
+      setTimeout(() => {
+        fetch("https://api.getsnip.app/report/blog", {
+          mode: "no-cors",
+        });
+      }, 500);
+    </script>
+  </body>
+</html>
