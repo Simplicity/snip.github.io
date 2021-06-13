@@ -341,6 +341,25 @@ span.tag-example {
   font-size: 1.1em;
 }
 
+.dashboards-row {
+  padding-top: 0;
+  padding-bottom: 0;
+  flex-direction: column;
+}
+
+.dashboards-sub-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboards-sub-row-tile {
+  flex: 1;
+}
+
+.dashboards-example-video {
+  height: 35em;
+}
+
 .vision-section-row {
   width: 100%;
   flex-direction: column;
