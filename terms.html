@@ -48,6 +48,16 @@
     <link rel="preload" href="privacy" as="document" />
     <link rel="preload" href="support" as="document" />
     <link rel="preload" href="terms" as="document" />
+
+    <script>
+      function reportDownload(os) {
+        setTimeout(() => {
+          fetch(`https://api.getsnip.io/analytics/downloads/${os}`, {
+            mode: "no-cors",
+          });
+        }, 500);
+      }
+    </script>
   </head>
 
   <body>
@@ -555,7 +565,7 @@
     <script>
       // setTimeout to let the page load first
       setTimeout(() => {
-        fetch("https://api.getsnip.app/report/terms", {
+        fetch("https://api.getsnip.io/analytics/page_visits/terms", {
           mode: "no-cors",
         });
       }, 500);

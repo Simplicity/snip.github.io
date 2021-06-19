@@ -48,6 +48,16 @@
     <link rel="preload" href="privacy" as="document" />
     <link rel="preload" href="support" as="document" />
     <link rel="preload" href="terms" as="document" />
+
+    <script>
+      function reportDownload(os) {
+        setTimeout(() => {
+          fetch(`https://api.getsnip.io/analytics/downloads/${os}`, {
+            mode: "no-cors",
+          });
+        }, 500);
+      }
+    </script>
   </head>
 
   <body>
@@ -75,7 +85,10 @@
       </div>
 
       <div class="download-row">
-        <a href="https://api.getsnip.app/download/windows">
+        <a
+          href="https://github.com/snip-app/client/releases/latest/download/Snip.exe"
+          onclick="reportDownload('windows')"
+        >
           <span class="download-button">
             <span>Windows</span>
             <i class="material-icons">get_app</i>
@@ -118,7 +131,7 @@
     <script>
       // setTimeout to let the page load first
       setTimeout(() => {
-        fetch("https://api.getsnip.app/report/windows", {
+        fetch("https://api.getsnip.io/analytics/page_visits/windows", {
           mode: "no-cors",
         });
       }, 500);
