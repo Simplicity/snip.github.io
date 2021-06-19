@@ -94,6 +94,14 @@
     margin-top: -10em;
   }
 
+  section .markdown-example-row {
+    flex-direction: column-reverse;
+  }
+
+  section .markdown-example-row video {
+    width: 100%;
+  }
+
   .footer-logo.footer-tile {
     flex-direction: row;
   }

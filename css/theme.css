@@ -277,6 +277,10 @@ section:only-of-type {
   flex: 1;
 }
 
+.markdown-example-row video {
+  width: 75%;
+}
+
 span.tag-example {
   font-size: 0.75em;
   background-color: rgb(100, 174, 235);
