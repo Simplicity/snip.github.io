@@ -318,6 +318,7 @@ span.tag-example {
 
 .reminders-row {
   flex-direction: column;
+  width: 100%;
 }
 
 .reminders-sub-row {
