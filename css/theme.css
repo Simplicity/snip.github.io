@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   font-family: "Noto Sans HK";
   background-color: rgb(246, 249, 250);
-  color: rgb(53, 63, 68);
+  color: rgb(38, 48, 54);
   justify-content: center;
 }
 
@@ -126,8 +126,17 @@ header {
   white-space: nowrap;
 }
 
+.big-screenshot-wrapper {
+  width: 100%;
+  background-color: rgb(165, 167, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5em;
+}
+
 .big-screenshot {
-  width: 1346px;
+  width: 1400px;
 }
 
 .download-row {
@@ -167,7 +176,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: rgb(107, 112, 115);
+  color: rgb(58, 75, 82);
 }
 
 section:nth-child(odd) {
@@ -416,7 +425,6 @@ span.tag-example {
   padding: 0.25em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  opacity: 0.75;
 }
 
 .snip-cloud-banner::after {
