@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+
+.header-slogan-1 span {
+  white-space: nowrap;
+}
+
+section.header-big-screenshot-section {
+  padding: 6em;
+}
+
+.header-big-screenshot {
+  width: 800px;
+  box-shadow: 0em 0em 9em var(--accent-color-1);
+}

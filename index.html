@@ -40,12 +40,14 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="css/index/download-row.css" />
+    <link rel="stylesheet" href="css/index/header.css" />
+
     <link rel="stylesheet" href="css/themes/candy.css" />
     <link rel="stylesheet" href="css/themes/common.css" />
     <link rel="stylesheet" href="css/themes/open-color.css" />
     <link rel="stylesheet" href="css/themes/silver.css" />
 
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -79,7 +81,7 @@
     </nav>
 
     <header>
-  <h1 class="slogan-1">
+  <h1 class="header-slogan-1">
     <span><em>Lightweight</em> on the Surface,</span>
     <span><em>Powerful</em> at the Core.</span>
   </h1>
@@ -88,8 +90,8 @@
   </h2>
 </header>
 
-<section class="big-screenshot-section">
-  <div class="image-wrapper big-screenshot">
+<section class="header-big-screenshot-section">
+  <div class="image-wrapper header-big-screenshot">
     <img src="img/screenshot1.png" />
   </div>
 </section>
@@ -97,27 +99,29 @@
 <section>
   <div class="download-row">
     <a
+      class="download-row-anchor"
       href="https://github.com/snip-app/client/releases/latest/download/Snip.dmg"
       onclick="reportDownload('mac')"
     >
-      <span class="download-button">
+      <span class="download-row-button">
         <span>Mac</span>
         <i class="material-icons">get_app</i>
       </span>
     </a>
 
-    <a href="windows">
-      <span class="download-button">
+    <a class="download-row-anchor" href="windows">
+      <span class="download-row-button">
         <span>Windows</span>
         <i class="material-icons">get_app</i>
       </span>
     </a>
 
     <a
+      class="download-row-anchor"
       href="https://github.com/snip-app/client/releases/latest/download/Snip.deb"
       onclick="reportDownload('linux')"
     >
-      <span class="download-button">
+      <span class="download-row-button">
         <span>Linux</span>
         <i class="material-icons">get_app</i>
       </span>

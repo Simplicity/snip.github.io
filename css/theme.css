@@ -5,41 +5,6 @@
   margin-left: 7.5em;
 }
 
-.download-row {
-  width: 100%;
-  font-family: "Poppins";
-  display: flex;
-  justify-content: center;
-  background-color: var(--accent-color-1);
-}
-
-.download-button {
-  font-size: 1em;
-  display: flex;
-  border: 1px solid var(--accent-contrast-color-1);
-  color: var(--accent-contrast-color-1);
-  padding: 0.75em;
-  padding-bottom: 0.33em;
-  border-radius: 0.25em;
-  align-items: center;
-  justify-content: center;
-  min-width: 8em;
-}
-
-.download-row a {
-  margin: 2em;
-  text-decoration: none;
-}
-
-.download-button > span {
-  margin-bottom: 0.25em;
-}
-
-.download-button i {
-  margin-left: 0.25em;
-  margin-top: -3px;
-}
-
 .themes-section h1 {
   /* background-color: var(--accent-color-1); */
   /* color: var(--accent-contrast-color-1); */
