@@ -1,0 +1,10 @@
+.dashboard-screenshot-section {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.dashboard-screenshot-section-image-wrapper {
+  width: 800px;
+  box-shadow: 0em 0em 9em var(--accent-color-1);
+  margin-left: 7.5em;
+}

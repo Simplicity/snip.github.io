@@ -12,7 +12,8 @@ header {
 }
 
 section.header-big-screenshot-section {
-  padding: 6em;
+  padding-top: 1em;
+  padding-bottom: 5em;
 }
 
 .header-big-screenshot {
