@@ -1,0 +1,13 @@
+.App-full-screen-wrapper {
+  --box-shadow-light-1: 0em 0.25em 1em
+    rgba(var(--box-shadow-base-color), var(--shadow-color-opacity-light-1));
+
+  --box-shadow-extra-light-1: 0em 0.0125em 0.25em
+    rgba(
+      var(--box-shadow-base-color),
+      var(--shadow-color-opacity-extra-light-1)
+    );
+
+  --box-shadow-heavy-1: 0em 1em 2em
+    rgba(var(--box-shadow-base-color), var(--shadow-color-opacity-heavy-1));
+}
