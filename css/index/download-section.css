@@ -1,12 +1,10 @@
-.download-row {
-  width: 100%;
+.download-section {
   font-family: "Poppins";
-  display: flex;
-  justify-content: center;
   background-color: var(--accent-color-1);
+  flex-direction: row;
 }
 
-.download-row-button {
+.download-section-button {
   font-size: 1em;
   display: flex;
   border: 1px solid var(--accent-contrast-color-1);
@@ -19,16 +17,16 @@
   min-width: 8em;
 }
 
-.download-row-anchor {
+.download-section-anchor {
   margin: 2em;
   text-decoration: none;
 }
 
-.download-row-button > span {
+.download-section-button > span {
   margin-bottom: 0.25em;
 }
 
-.download-row-button i {
+.download-section-button i {
   margin-left: 0.25em;
   margin-top: -3px;
 }
