@@ -21,7 +21,7 @@ section.header-big-screenshot-section {
 }
 
 .header-big-screenshot {
-  width: 100%;
+  width: var(--landing-page-default-image-width);
   max-width: 900px;
   box-shadow: var(--landing-page-box-shadow);
 }
