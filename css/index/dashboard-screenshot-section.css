@@ -4,6 +4,10 @@
   max-width: 80em;
 }
 
+.dashboard-screenshot-section h2 {
+  font-size: 2.5em;
+}
+
 .dashboard-screenshot-section-image-wrapper {
   width: 800px;
   box-shadow: 0em 0em 9em var(--accent-color-1);
