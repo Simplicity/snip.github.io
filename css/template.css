@@ -2,7 +2,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Noto Sans HK";
+  font-family: "Nunito";
   background-color: var(--background-color-1);
   color: var(--font-color-2);
   justify-content: center;
