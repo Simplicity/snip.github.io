@@ -11,12 +11,35 @@ header {
   white-space: nowrap;
 }
 
+.header-slogan-2 span {
+  white-space: nowrap;
+}
+
 section.header-big-screenshot-section {
   padding-top: 1em;
   padding-bottom: 5em;
 }
 
 .header-big-screenshot {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   box-shadow: 0em 0em 9em var(--accent-color-1);
+}
+
+@media only screen and (max-width: 700px) {
+  .header-slogan-2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .header-slogan-1 {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header-slogan-1 {
+    font-size: 1.5em;
+  }
 }

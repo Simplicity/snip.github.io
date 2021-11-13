@@ -234,3 +234,20 @@ footer {
 .windows-download .download-button {
   border: 1px solid hsl(355, 65%, 65%);
 }
+
+@media only screen and (max-width: 500px) {
+  .nav-outer {
+    flex-direction: column;
+  }
+
+  .footer-tile {
+    /* margin-top: 1em; */
+    margin-bottom: 2em;
+  }
+
+  .top-navigation .nav-outer {
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
