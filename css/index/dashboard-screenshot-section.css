@@ -1,6 +1,7 @@
 .dashboard-screenshot-section {
   padding-top: 5em;
   padding-bottom: 5em;
+  max-width: 80em;
 }
 
 .dashboard-screenshot-section-image-wrapper {

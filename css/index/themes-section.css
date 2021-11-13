@@ -7,7 +7,7 @@
   width: 100%;
   display: grid;
   grid-column-gap: 0;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .themes-section-row {

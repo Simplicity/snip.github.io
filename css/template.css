@@ -6,6 +6,7 @@ body {
   background-color: var(--background-color-1);
   color: var(--font-color-2);
   justify-content: center;
+  align-items: center;
 }
 
 button,
@@ -91,6 +92,7 @@ h3 {
 
 .top-navigation {
   height: 7em;
+  width: 100%;
 }
 
 .nav-account a {
@@ -114,6 +116,7 @@ section {
   align-items: center;
   flex-direction: column;
   color: rgb(58, 75, 82);
+  width: 100%;
 }
 
 section:nth-child(odd) {
@@ -130,9 +133,9 @@ section:only-of-type {
   padding-bottom: 4em;
   display: flex;
   flex-grow: 1;
-  /* max-width: 65em; */
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .section-row-informative h1 {
