@@ -42,6 +42,13 @@
   }
 
   .reminders-section-expression-examples-tile {
+    grid-template-columns: 1fr;
     font-size: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .reminders-section-expression-examples-tile {
+    font-size: 0.5em;
   }
 }

@@ -231,6 +231,30 @@ footer {
   border: 1px solid hsl(355, 65%, 65%);
 }
 
+@media only screen and (max-width: 1100px) {
+  body {
+    --landing-page-box-shadow: 0em 0em 6em var(--accent-color-1);
+    --landing-page-default-large-padding: 2em;
+    --landing-page-default-small-padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
+    --landing-page-default-large-padding: 1em;
+    --landing-page-default-small-padding: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    --landing-page-box-shadow: 0em 0em 3em var(--accent-color-1);
+    --landing-page-default-large-padding: 0.5em;
+    --landing-page-default-small-padding: 0.25em;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .nav-outer {
     flex-direction: column;
@@ -247,6 +271,6 @@ footer {
   }
 
   body {
-    --landing-page-box-shadow: 0em 0em 3em var(--accent-color-1);
+    --landing-page-box-shadow: 0em 0em 2em var(--accent-color-1);
   }
 }
