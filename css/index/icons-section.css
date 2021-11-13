@@ -9,6 +9,7 @@
 .icons-section-image-wrapper {
   width: 800px;
   box-shadow: var(--landing-page-box-shadow);
+  margin-top: calc(var(--landing-page-default-large-padding) * 1.5);
 }
 
 @media only screen and (max-width: 1000px) {

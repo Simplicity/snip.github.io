@@ -243,24 +243,22 @@ footer {
 @media only screen and (max-width: 1100px) {
   body {
     --landing-page-box-shadow: 0em 0em 6em var(--accent-color-1);
-    --landing-page-default-large-padding: 2em;
+    --landing-page-default-large-padding: 3em;
     --landing-page-default-small-padding: 1em;
   }
 }
 
 @media only screen and (max-width: 800px) {
   body {
-    --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
-    --landing-page-default-large-padding: 1em;
+    --landing-page-box-shadow: 0em 0em 5em var(--accent-color-1);
+    --landing-page-default-large-padding: 2em;
     --landing-page-default-small-padding: 1em;
   }
 }
 
 @media only screen and (max-width: 600px) {
   body {
-    --landing-page-box-shadow: 0em 0em 2em var(--accent-color-1);
-    --landing-page-default-large-padding: 0.5em;
-    --landing-page-default-small-padding: 1em;
+    --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
   }
 }
 
