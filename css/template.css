@@ -119,10 +119,6 @@ section {
   width: 100%;
 }
 
-section:nth-child(odd) {
-  /* background-color: white; */
-}
-
 section:only-of-type {
   background-color: white;
   min-height: calc(100vh - 14em);
@@ -158,7 +154,6 @@ section:only-of-type {
 }
 
 .section-row-informative .section-tile {
-  /* align-items: baseline; */
   display: block;
 }
 
@@ -241,7 +236,6 @@ footer {
   }
 
   .footer-tile {
-    /* margin-top: 1em; */
     margin-bottom: 2em;
   }
 
