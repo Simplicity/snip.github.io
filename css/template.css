@@ -7,6 +7,8 @@ body {
   color: var(--font-color-2);
   justify-content: center;
   align-items: center;
+
+  --landing-page-box-shadow: 0em 0em 9em var(--accent-color-1);
 }
 
 button,
@@ -243,5 +245,9 @@ footer {
     flex-direction: row;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  body {
+    --landing-page-box-shadow: 0em 0em 3em var(--accent-color-1);
   }
 }

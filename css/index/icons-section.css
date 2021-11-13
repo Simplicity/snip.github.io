@@ -4,7 +4,7 @@
 
 .icons-section-image-wrapper {
   width: 800px;
-  box-shadow: 0em 0em 9em var(--accent-color-1);
+  box-shadow: var(--landing-page-box-shadow);
 }
 
 @media only screen and (max-width: 1000px) {

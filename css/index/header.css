@@ -23,7 +23,7 @@ section.header-big-screenshot-section {
 .header-big-screenshot {
   width: 100%;
   max-width: 900px;
-  box-shadow: 0em 0em 9em var(--accent-color-1);
+  box-shadow: var(--landing-page-box-shadow);
 }
 
 @media only screen and (max-width: 700px) {
