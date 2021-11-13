@@ -3,4 +3,5 @@
 
 .icons-section-image-wrapper {
   width: 800px;
+  box-shadow: 0em 0em 9em var(--accent-color-1);
 }

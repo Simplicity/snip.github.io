@@ -1,0 +1,13 @@
+.reminders-section {
+  max-width: 60em;
+}
+
+.reminders-section .section-row {
+  flex-direction: column;
+}
+
+.reminders-section-image-wrapper {
+  width: 600px;
+  box-shadow: 0em 0em 9em var(--accent-color-1);
+  margin-top: 5em;
+}
