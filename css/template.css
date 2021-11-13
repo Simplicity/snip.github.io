@@ -9,6 +9,8 @@ body {
   align-items: center;
 
   --landing-page-box-shadow: 0em 0em 9em var(--accent-color-1);
+  --landing-page-default-large-padding: 4em;
+  --landing-page-default-small-padding: 1em;
 }
 
 button,
@@ -127,8 +129,6 @@ section:only-of-type {
 }
 
 .section-row {
-  padding-top: 4em;
-  padding-bottom: 4em;
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -173,13 +173,12 @@ section:only-of-type {
 }
 
 .section-tile {
-  padding: 1em;
+  padding: calc(var(--landing-page-default-small-padding) * 2);
   border-radius: 0.25em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1em;
   flex: 1;
   text-align: center;
 }

@@ -1,6 +1,9 @@
+.themes-section {
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 3);
+}
+
 .themes-section h1 {
   font-size: 4em;
-  padding-bottom: 1em;
 }
 
 .themes-section-grid {

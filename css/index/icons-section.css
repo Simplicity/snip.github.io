@@ -1,3 +1,7 @@
+.icons-section {
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
+}
+
 .icons-section h2 {
   font-size: 3em;
 }

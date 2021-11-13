@@ -3,8 +3,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4em;
-  padding-bottom: 5em;
+  padding-top: var(--landing-page-default-large-padding);
+  padding-bottom: var(--landing-page-default-large-padding);
 }
 
 .header-slogan-1 span {
@@ -16,8 +16,8 @@ header {
 }
 
 section.header-big-screenshot-section {
-  padding-top: 1em;
-  padding-bottom: 5em;
+  padding-top: calc(var(--landing-page-default-large-padding) * 2);
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
 }
 
 .header-big-screenshot {

@@ -1,5 +1,6 @@
 .reminders-section {
   max-width: 60em;
+  margin-bottom: calc(var(--landing-page-default-large-padding) * 2);
 }
 
 .reminders-section h1 {
@@ -14,12 +15,12 @@
   width: 100%;
   max-width: 600px;
   box-shadow: var(--landing-page-box-shadow);
-  margin-top: 7.5em;
+  margin-top: calc(var(--landing-page-default-large-padding) * 1.5);
 }
 
 .reminders-section-expression-examples {
   width: 100%;
-  margin-top: 7.5em;
+  margin-top: calc(var(--landing-page-default-large-padding) * 1.5);
 }
 
 .reminders-section-expression-examples-tile {
