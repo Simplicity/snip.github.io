@@ -20,3 +20,16 @@
   width: 100%;
   margin-top: 7.5em;
 }
+
+.reminders-section-expression-examples-tile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+}
+
+.reminders-section-expression-example {
+  font-family: "Courier Prime", monospace;
+  margin: 1em;
+  text-align: center;
+  font-size: 1.1em;
+}
