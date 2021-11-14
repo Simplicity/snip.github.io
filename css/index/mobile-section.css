@@ -1,0 +1,20 @@
+.mobile-section {
+  width: 100%;
+}
+
+.mobile-section-image-wrapper {
+  margin-left: 15%;
+  max-width: 400px;
+  width: var(--landing-page-default-image-width);
+  filter: drop-shadow(var(--landing-page-box-shadow));
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobile-section .section-row {
+    flex-direction: column-reverse;
+  }
+
+  .mobile-section-image-wrapper {
+    margin-left: 0;
+  }
+}
