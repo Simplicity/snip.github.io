@@ -12,6 +12,12 @@
   margin-top: calc(var(--landing-page-default-large-padding) * 1.5);
 }
 
+@media only screen and (min-width: 2000px) {
+  .icons-section {
+    max-width: 125em;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .icons-section .section-row {
     flex-direction: column;
