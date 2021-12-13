@@ -2,13 +2,13 @@
   max-width: 70em;
 }
 
-.vision-section h1 {
-  font-size: 3em;
-}
-
 .vision-section-row {
   width: 100%;
   flex-direction: column;
+}
+
+.vision-section-row h1 {
+  font-size: 3em;
 }
 
 .vision-section-grid {
@@ -30,6 +30,10 @@
   font-size: 1.125em;
   padding: 2em;
   padding-top: 0;
+}
+
+.vision-section-tile span {
+  max-width: 19em;
 }
 
 .vision-section-tile h1 {

@@ -2,7 +2,12 @@
   padding-bottom: calc(var(--landing-page-default-large-padding) * 3);
 }
 
-.themes-section h1 {
+.themes-section-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.themes-section-row h1 {
   font-size: 4em;
 }
 
@@ -11,10 +16,6 @@
   display: grid;
   grid-column-gap: 0;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.themes-section-row {
-  display: flex;
 }
 
 .themes-section-tile {

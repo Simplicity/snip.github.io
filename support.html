@@ -150,11 +150,13 @@
 
     <script>
       // setTimeout to let the page load first
-      setTimeout(() => {
-        fetch("https://api.getsnip.io/analytics/page_visits/support", {
-          mode: "no-cors",
-        });
-      }, 500);
+      if (location.origin.includes("getsnip.io")) {
+        setTimeout(() => {
+          fetch("https://api.getsnip.io/analytics/page_visits/support", {
+            mode: "no-cors",
+          });
+        }, 500);
+      }
     </script>
   </body>
 </html>

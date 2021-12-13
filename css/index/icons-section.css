@@ -2,6 +2,10 @@
   padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
 }
 
+.icon-section-sub-text {
+  max-width: 19em;
+}
+
 .icons-section h2 {
   font-size: 3em;
 }
