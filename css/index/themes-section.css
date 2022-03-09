@@ -1,5 +1,5 @@
 .themes-section {
-  padding-bottom: calc(var(--landing-page-default-large-padding) * 3);
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 1);
 }
 
 .themes-section-row {

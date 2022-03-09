@@ -1,5 +1,5 @@
 .icons-section {
-  padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 1);
 }
 
 .icon-section-sub-text {
@@ -12,7 +12,6 @@
 
 .icons-section-image-wrapper {
   width: 800px;
-  box-shadow: var(--landing-page-box-shadow);
   margin-top: calc(var(--landing-page-default-large-padding) * 1.5);
 }
 

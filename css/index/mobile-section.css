@@ -5,10 +5,8 @@
 
 .mobile-section-image-wrapper {
   margin-left: 15%;
-  max-width: 400px;
+  max-width: 500px;
   width: var(--landing-page-default-image-width);
-  --landing-page-box-shadow: 0em 0em 5em var(--accent-color-1);
-  filter: drop-shadow(var(--landing-page-box-shadow));
 }
 
 @media only screen and (max-width: 1000px) {
