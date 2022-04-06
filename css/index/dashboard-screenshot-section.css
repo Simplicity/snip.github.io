@@ -7,7 +7,7 @@
     var(--accent-color-1)
   );
 
-  min-height: 100vh;
+  min-height: var(--landing-page-full-height);
 }
 
 .section-row.dashboard-screenshot-section-title-row {

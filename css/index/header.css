@@ -7,8 +7,9 @@
 
   width: 100%;
 
-  min-height: calc(100vh - var(--landing-page-header-height));
-  min-height: 55em;
+  min-height: calc(
+    var(--landing-page-full-height) - var(--landing-page-header-height)
+  );
 
   display: flex;
   flex-direction: column;
@@ -43,6 +44,10 @@ section.header-big-screenshot-section {
 @media only screen and (max-width: 700px) {
   .header-slogan-2 {
     font-size: 1.5em;
+  }
+
+  .header-outer-wrapper {
+    min-height: unset;
   }
 }
 

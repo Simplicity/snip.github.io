@@ -5,7 +5,7 @@
     var(--accent-color-1)
   );
 
-  height: 100vh;
+  height: var(--landing-page-full-height);
 }
 
 .reminders-section h1 {

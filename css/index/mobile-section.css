@@ -2,7 +2,7 @@
   width: 100%;
 
   background: linear-gradient(var(--accent-contrast-color-1) 50%, var(--accent-color-1));
-  min-height: 100vh;
+  min-height: var(--landing-page-full-height);
 }
 
 .mobile-section .section-row {
