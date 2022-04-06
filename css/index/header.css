@@ -7,7 +7,7 @@
 
   width: 100%;
 
-  height: calc(100vh - var(--landing-page-header-height));
+  min-height: calc(100vh - var(--landing-page-header-height));
   min-height: 55em;
 
   display: flex;
