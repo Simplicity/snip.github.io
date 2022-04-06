@@ -1,23 +1,38 @@
 .dashboard-screenshot-section {
   padding-top: calc(var(--landing-page-default-large-padding) * 1);
-  padding-bottom: calc(var(--landing-page-default-large-padding) * 1);
 
   background: linear-gradient(
     180deg,
-    rgb(255, 255, 255) 20%,
+    rgb(255, 255, 255) 33%,
     var(--accent-color-1)
   );
 
   min-height: 100vh;
 }
 
+.section-row.dashboard-screenshot-section-title-row {
+  flex-grow: 0;
+}
+
+.dashboard-screenshot-section-screenshot-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-screenshot-section-screenshot-tile p {
+  max-width: 25em;
+  text-align: center;
+  min-height: 10em;
+}
+
 .dashboard-screenshot-section h2 {
-  font-size: 4.5em;
+  font-size: 3.5em;
 }
 
 .dashboard-screenshot-section-image-wrapper {
   width: var(--landing-page-default-image-width);
-  max-width: 1300px;
+  max-width: 900px;
 }
 
 @media only screen and (max-width: 1300px) {

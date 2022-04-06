@@ -2,7 +2,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Nunito";
+  font-family: "Poppins";
   color: var(--font-color-2);
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ body * {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1.25em;
+  line-height: 1.75em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -164,7 +164,6 @@ section {
 }
 
 .section-tile {
-  padding: calc(var(--landing-page-default-small-padding) * 2);
   border-radius: 0.25em;
   display: flex;
   flex-direction: column;
