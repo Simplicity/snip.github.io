@@ -1,7 +1,7 @@
 .header-outer-wrapper {
   background: linear-gradient(
     180deg,
-    rgb(255, 255, 255) 20%,
+    var(--accent-contrast-color-1) 20%,
     var(--accent-color-1)
   );
 
