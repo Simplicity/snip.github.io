@@ -1,17 +1,23 @@
 .dashboard-screenshot-section {
   padding-top: calc(var(--landing-page-default-large-padding) * 1);
   padding-bottom: calc(var(--landing-page-default-large-padding) * 1);
-  max-width: 80em;
+
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 20%,
+    var(--accent-color-1)
+  );
+
+  min-height: 100vh;
 }
 
 .dashboard-screenshot-section h2 {
-  font-size: 2.5em;
+  font-size: 4.5em;
 }
 
 .dashboard-screenshot-section-image-wrapper {
   width: var(--landing-page-default-image-width);
   max-width: 1300px;
-  margin-left: var(--landing-page-default-large-padding);
 }
 
 @media only screen and (max-width: 1300px) {
