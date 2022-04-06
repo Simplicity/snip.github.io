@@ -1,6 +1,16 @@
 .mobile-section {
   width: 100%;
+
+  background: linear-gradient(rgb(255, 255, 255) 50%, var(--accent-color-1));
+  min-height: 100vh;
+}
+
+.mobile-section .section-row {
   max-width: 90em;
+}
+
+.mobile-section h2 {
+  font-size: 3em;
 }
 
 .mobile-section-image-wrapper {
