@@ -1,7 +1,15 @@
 .download-section {
   font-family: "Poppins";
   background-color: var(--accent-color-1);
-  flex-direction: row;
+}
+
+.download-section-row:first-child {
+  margin-top: var(--landing-page-default-large-padding);
+}
+
+.download-section-row {
+  display: flex;
+  color: var(--accent-contrast-color-1);
 }
 
 .download-section-button {
