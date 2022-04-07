@@ -1,0 +1,8 @@
+.always-free-section {
+  min-height: var(--landing-page-full-height);
+}
+
+.always-free-section ul {
+  text-align: left;
+  max-width: 30em;
+}
