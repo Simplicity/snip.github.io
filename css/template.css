@@ -158,7 +158,7 @@ section {
 }
 
 body .centered-section li {
-  line-height: 3em;
+  margin-bottom: 1.5em;
 }
 
 .centered-section .nav-account {
