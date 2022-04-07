@@ -299,7 +299,7 @@ footer a {
   }
 }
 
-@media only screen and (min-height: 1300px) {
+@media only screen and (min-height: 1500px) {
   body {
     --landing-page-full-height: none;
   }

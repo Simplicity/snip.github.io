@@ -1,5 +1,11 @@
 .always-free-section {
-  min-height: var(--landing-page-full-height);
+  min-height: 75em;
+
+  background: linear-gradient(
+    180deg,
+    var(--accent-contrast-color-1) 66%,
+    var(--accent-color-1)
+  );
 }
 
 .always-free-section ul {
