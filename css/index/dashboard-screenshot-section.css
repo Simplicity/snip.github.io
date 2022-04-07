@@ -20,15 +20,13 @@
   align-items: center;
 }
 
-.dashboard-screenshot-section-screenshot-tile p {
-  max-width: 25em;
-  text-align: center;
-  min-height: 10em;
-  font-size: 1.33em;
-}
-
 .dashboard-screenshot-section h2 {
   font-size: 3.5em;
+}
+
+.dashboard-screenshot-section .section-sub-text {
+  max-width: 25em;
+  min-height: 10em;
 }
 
 .dashboard-screenshot-section-image-wrapper {
@@ -44,5 +42,15 @@
   .dashboard-screenshot-section-image-wrapper {
     margin-left: 0;
     margin-top: var(--landing-page-default-large-padding);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dashboard-screenshot-section {
+    background: none;
+  }
+
+  .dashboard-screenshot-section h2 {
+    font-size: 2.5em;
   }
 }

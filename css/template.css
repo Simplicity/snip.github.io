@@ -259,6 +259,13 @@ footer {
 @media only screen and (max-width: 600px) {
   body {
     --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
+
+    --landing-page-full-height: 100vh;
+  }
+
+  .section-sub-text {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 

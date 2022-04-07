@@ -1,20 +1,23 @@
 .mobile-section {
   width: 100%;
 
-  background: linear-gradient(var(--accent-contrast-color-1) 50%, var(--accent-color-1));
-  min-height: var(--landing-page-full-height);
-}
+  background: linear-gradient(
+    var(--accent-contrast-color-1) 50%,
+    var(--accent-color-1)
+  );
 
-.mobile-section .section-row {
-  max-width: 90em;
+  min-height: var(--landing-page-full-height);
 }
 
 .mobile-section h2 {
   font-size: 3em;
 }
 
+.mobile-section .section-tile {
+  max-width: 30em;
+}
+
 .mobile-section-image-wrapper {
-  margin-left: 15%;
   max-width: 500px;
   width: var(--landing-page-default-image-width);
 }
@@ -26,5 +29,11 @@
 
   .mobile-section-image-wrapper {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-section h2 {
+    font-size: 2.5em;
   }
 }

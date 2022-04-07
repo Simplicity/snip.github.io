@@ -21,7 +21,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: var(--landing-page-default-large-padding);
 }
 
 .header-slogan-1 span {
@@ -47,6 +46,12 @@ section.header-big-screenshot-section {
   }
 
   .header-outer-wrapper {
+    background: linear-gradient(
+      180deg,
+      var(--accent-contrast-color-1) 45%,
+      var(--accent-color-1)
+    );
+
     min-height: unset;
   }
 }
