@@ -35,19 +35,3 @@
   margin-left: 0.25em;
   margin-top: -3px;
 }
-
-@media only screen and (max-width: 700px) {
-  .download-section {
-    display: none;
-  }
-
-  .download-section-button {
-    font-size: 0.9em;
-    min-width: unset;
-  }
-
-  .download-section-anchor {
-    margin: 0.25em;
-    flex: 1;
-  }
-}
