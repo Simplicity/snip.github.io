@@ -1,5 +1,4 @@
 .download-section {
-  padding-top: calc(var(--landing-page-default-large-padding) * 1);
   font-family: "Poppins";
   background-color: var(--accent-color-1);
   flex-direction: row;

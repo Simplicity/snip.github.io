@@ -32,7 +32,7 @@ header {
 }
 
 section.header-big-screenshot-section {
-  height: 100%;
+  flex: 1;
 }
 
 .header-big-screenshot {
