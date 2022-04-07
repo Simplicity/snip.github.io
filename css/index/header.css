@@ -24,6 +24,8 @@ header {
 }
 
 .header-slogan-1 {
+  margin-top: var(--landing-page-default-small-padding);
+  margin-bottom: var(--landing-page-default-small-padding);
   font-size: 2.5em;
 }
 
