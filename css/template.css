@@ -226,6 +226,14 @@ footer a {
   color: var(--accent-contrast-color-1);
 }
 
+footer nav {
+  height: 100%;
+}
+
+footer nav .nav-outer {
+  height: 100%;
+}
+
 .footer-tile {
   display: flex;
   flex: 1;
@@ -293,6 +301,10 @@ footer a {
     padding-left: 1em;
     padding-right: 1em;
   }
+
+  footer {
+    height: unset;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -306,10 +318,6 @@ footer a {
 @media only screen and (max-width: 500px) {
   .nav-outer {
     flex-direction: column;
-  }
-
-  .footer-tile {
-    margin-bottom: 2em;
   }
 }
 
