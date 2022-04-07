@@ -1,16 +1,11 @@
 .themes-section {
   background-color: var(--accent-color-1);
   color: var(--accent-contrast-color-1);
-  padding-top: var(--landing-page-default-small-padding);
 }
 
 .themes-section-row {
   display: flex;
   flex-direction: column;
-}
-
-.themes-section-row h1 {
-  font-size: 6em;
 }
 
 .themes-section-grid {
@@ -28,11 +23,6 @@
   position: relative;
 }
 
-.themes-section-tile h1 {
-  font-size: 2.5em;
-  position: relative;
-}
-
 @media only screen and (max-width: 3300px) {
   .themes-section-grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -42,12 +32,6 @@
 @media only screen and (max-width: 1200px) {
   .themes-section-grid {
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .themes-section-row h1 {
-    font-size: 3em;
   }
 }
 

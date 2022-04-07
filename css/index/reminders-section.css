@@ -8,10 +8,6 @@
   min-height: var(--landing-page-full-height);
 }
 
-.reminders-section h1 {
-  font-size: 4em;
-}
-
 .reminders-section .section-sub-text {
   max-width: 25em;
 }
@@ -48,10 +44,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .reminders-section h1 {
-    font-size: 3em;
-  }
-
   .reminders-section-expression-examples-tile {
     grid-template-columns: 1fr;
   }

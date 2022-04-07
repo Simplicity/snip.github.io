@@ -23,6 +23,14 @@ header {
   align-items: center;
 }
 
+.header-slogan-1 {
+  font-size: 2.5em;
+}
+
+.header-slogan-2 {
+  font-size: 2em;
+}
+
 .header-slogan-1 span {
   white-space: nowrap;
 }

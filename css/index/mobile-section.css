@@ -9,12 +9,8 @@
   min-height: var(--landing-page-full-height);
 }
 
-.mobile-section h2 {
-  font-size: 3em;
-}
-
 .mobile-section .section-tile {
-  max-width: 30em;
+  max-width: 35em;
 }
 
 .mobile-section-image-wrapper {
@@ -29,11 +25,5 @@
 
   .mobile-section-image-wrapper {
     margin-left: 0;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .mobile-section h2 {
-    font-size: 2.5em;
   }
 }

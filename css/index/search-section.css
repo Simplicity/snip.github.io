@@ -10,10 +10,6 @@
   min-height: var(--landing-page-full-height);
 }
 
-.search-section h1 {
-  font-size: 4em;
-}
-
 .search-section .section-sub-text {
   max-width: 25em;
 }

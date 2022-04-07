@@ -1,6 +1,4 @@
 .dashboard-screenshot-section {
-  padding-top: calc(var(--landing-page-default-large-padding) * 1);
-
   background: linear-gradient(
     180deg,
     var(--accent-contrast-color-1) 33%,
@@ -12,16 +10,15 @@
 
 .section-row.dashboard-screenshot-section-title-row {
   flex-grow: 0;
+  margin-top: var(--landing-page-default-small-padding);
+  margin-bottom: var(--landing-page-default-large-padding);
 }
 
 .dashboard-screenshot-section-screenshot-tile {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.dashboard-screenshot-section h2 {
-  font-size: 3.5em;
+  margin-bottom: 5em;
 }
 
 .dashboard-screenshot-section .section-sub-text {
@@ -48,9 +45,5 @@
 @media only screen and (max-width: 700px) {
   .dashboard-screenshot-section {
     background: none;
-  }
-
-  .dashboard-screenshot-section h2 {
-    font-size: 2.5em;
   }
 }

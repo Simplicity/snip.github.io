@@ -68,11 +68,13 @@ a {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 5em;
+  margin: 0.5em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3.5em;
+  margin: 0.5em;
 }
 
 h1,
@@ -146,7 +148,6 @@ section {
 
 .section-row {
   display: flex;
-  flex-grow: 1;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -194,6 +195,9 @@ section {
 .section-sub-text {
   font-size: 1.25em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .image-wrapper {
@@ -276,16 +280,26 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 3em;
+  }
 
-    --landing-page-full-height: 100vh;
+  h2 {
+    font-size: 2em;
   }
 
   .section-sub-text {
     padding-left: 1em;
     padding-right: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    --landing-page-box-shadow: 0em 0em 4em var(--accent-color-1);
+
+    --landing-page-full-height: 100vh;
   }
 }
 
