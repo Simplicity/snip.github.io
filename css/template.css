@@ -69,12 +69,14 @@ a {
 
 h1 {
   font-size: 5em;
-  margin: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
   font-size: 3.5em;
-  margin: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 h1,
@@ -144,6 +146,24 @@ section {
 
 .narrow-section .section-tile {
   max-width: 55em;
+}
+
+.centered-section .section-tile {
+  text-align: center;
+}
+
+.centered-section ul {
+  max-width: 25em;
+  text-align: left;
+}
+
+body .centered-section li {
+  line-height: 3em;
+}
+
+.centered-section .nav-account {
+  font-size: 2em;
+  margin: 2em;
 }
 
 .section-row {
