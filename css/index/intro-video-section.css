@@ -3,6 +3,8 @@
   padding-top: var(--landing-page-default-large-padding);
   padding-bottom: var(--landing-page-default-large-padding);
   color: var(--accent-contrast-color-1);
+
+  min-height: var(--landing-page-full-height);
 }
 
 .intro-video-section-wrapper-outer {

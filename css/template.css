@@ -11,6 +11,7 @@ body {
   --landing-page-default-large-padding: 4em;
   --landing-page-default-small-padding: 1em;
   --landing-page-header-height: 7em;
+  --landing-page-download-section-height: 12em;
   --landing-page-full-height: 100vh;
 
   background-color: var(--accent-contrast-color-1);

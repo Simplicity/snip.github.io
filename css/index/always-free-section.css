@@ -1,11 +1,7 @@
 .always-free-section {
   min-height: 75em;
 
-  background: linear-gradient(
-    180deg,
-    var(--accent-contrast-color-1) 66%,
-    var(--accent-color-1)
-  );
+  border: var(--landing-page-default-large-padding) solid var(--accent-color-1);
 }
 
 .always-free-section ul {
@@ -13,8 +9,16 @@
   max-width: 30em;
 }
 
+.always-free-section li {
+  padding-bottom: calc(var(--landing-page-default-small-padding) * 1);
+}
+
+.always-free-section {
+  min-height: var(--landing-page-full-height);
+}
+
 @media only screen and (max-width: 700px) {
   .always-free-section {
-    min-height: var(--landing-page-full-height);
+    border-width: 0.25em;
   }
 }

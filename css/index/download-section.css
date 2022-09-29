@@ -1,6 +1,8 @@
 .download-section {
   font-family: "Poppins";
   background-color: var(--accent-color-1);
+
+  height: var(--landing-page-download-section-height);
 }
 
 .download-section-row:first-child {

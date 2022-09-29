@@ -8,7 +8,8 @@
   width: 100%;
 
   min-height: calc(
-    var(--landing-page-full-height) - var(--landing-page-header-height)
+    var(--landing-page-full-height) - var(--landing-page-header-height) -
+      var(--landing-page-download-section-height)
   );
 
   display: flex;
@@ -61,8 +62,6 @@ section.header-big-screenshot-section {
       var(--accent-contrast-color-1) 45%,
       var(--accent-color-1)
     );
-
-    min-height: unset;
   }
 }
 
