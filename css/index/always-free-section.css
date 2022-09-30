@@ -2,6 +2,8 @@
   min-height: 75em;
 
   border: var(--landing-page-default-large-padding) solid var(--accent-color-1);
+
+  box-shadow: inset var(--box-shadow-heavy-1);
 }
 
 .always-free-section ul {
