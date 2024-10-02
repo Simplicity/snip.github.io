@@ -35,4 +35,4 @@
     height: 100%;
     width: 100%;
   }
-`},17:(e,i,n)=>{n.r(i),n.d(i,{default:()=>a});var t=n(781),o=n(2573),r=n(4848);function a(){return(0,r.jsx)(t.A,{title:"About",description:"About the Snip Note Taking App",children:(0,r.jsx)(o.wn,{children:(0,r.jsxs)(o.O,{$flexDirection:"column",children:[(0,r.jsx)("h2",{children:"About"}),"Snip is a free to use, cross-platform productivity app developed by a small indie dev team in Frauenfeld, Switzerland."]})})})}}}]);
+`},17:(e,i,n)=>{n.r(i),n.d(i,{default:()=>a});var t=n(781),o=n(2573),r=n(4848);function a(){return(0,r.jsx)(t.A,{title:"About",description:"About the Snip Note Taking App",children:(0,r.jsx)(o.wn,{children:(0,r.jsxs)(o.O,{$flexDirection:"column",children:[(0,r.jsx)("h2",{children:"About"}),"Snip is a free to use, cross-platform productivity app developed by an indie dev team in Switzerland."]})})})}}}]);
