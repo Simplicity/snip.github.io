@@ -123,7 +123,7 @@
   @media (min-width: 768px) {
     display: none;
   }
-`;function z(){return(0,p.jsxs)(B,{children:[(0,p.jsxs)(W,{$flexDirection:"column",children:[(0,p.jsx)("p",{children:" Available on macOS. Coming soon on all other platforms."}),(0,p.jsx)(u,{href:"https://github.com/snip-app/client/releases/latest/download/Snip.dmg",children:(0,p.jsx)(A,{})})]}),(0,p.jsxs)(k,{$flexDirection:"column",children:[(0,p.jsx)("p",{children:" Available on iOS. Coming soon on all other platforms."}),(0,p.jsx)(u,{href:"https://apps.apple.com/ch/app/snip-notes-todos-reminders/id1584692945",children:(0,p.jsx)(A,{})})]})]})}const V=a.Ay.div`
+`;function z(){return(0,p.jsxs)(B,{children:[(0,p.jsxs)(W,{$flexDirection:"column",children:[(0,p.jsx)("p",{children:" Available on macOS. Coming soon on all other platforms."}),(0,p.jsx)(u,{href:"https://github.com/simplicity/snip/releases/latest/download/Snip.dmg",children:(0,p.jsx)(A,{})})]}),(0,p.jsxs)(k,{$flexDirection:"column",children:[(0,p.jsx)("p",{children:" Available on iOS. Coming soon on all other platforms."}),(0,p.jsx)(u,{href:"https://apps.apple.com/ch/app/snip-notes-todos-reminders/id1584692945",children:(0,p.jsx)(A,{})})]})]})}const V=a.Ay.div`
   filter: drop-shadow(0px 5px 6px rgba(var(--box-shadow-base-color), 1));
   transform: translateZ(0); // fix flickering shadow on safari
 `,Y=a.Ay.div`
