@@ -607,7 +607,7 @@
 `,(0,C.Ay)(u)`
   margin-top: 5em;
   margin-bottom: 5em;
-`);function Ne(){return(0,h.jsxs)(Xe,{children:[(0,h.jsxs)(u,{$flexDirection:"column",children:[(0,h.jsx)("h1",{children:"Available on iOS"}),(0,h.jsx)(Le,{children:(0,h.jsx)("img",{src:t(1238).A})})]}),(0,h.jsxs)(Oe,{$flexDirection:"column",children:[(0,h.jsx)("p",{children:"Available on iOS. Coming soon on all other platforms."}),(0,h.jsx)(g,{href:"https://apps.apple.com/ch/app/snip-notes-todos-reminders/id1584692945",children:(0,h.jsx)(f,{})})]})]})}const He=C.Ay.main`
+`);function Ne(){return(0,h.jsxs)(Xe,{children:[(0,h.jsxs)(u,{$flexDirection:"column",children:[(0,h.jsx)("h1",{children:"Available on iOS"}),(0,h.jsx)(ee,{children:(0,h.jsx)(Le,{children:(0,h.jsx)("img",{src:t(1238).A})})})]}),(0,h.jsxs)(Oe,{$flexDirection:"column",children:[(0,h.jsx)("p",{children:"Available on iOS. Coming soon on all other platforms."}),(0,h.jsx)(g,{href:"https://apps.apple.com/ch/app/snip-notes-todos-reminders/id1584692945",children:(0,h.jsx)(f,{})})]})]})}const He=C.Ay.main`
   em {
     font-style: normal;
     color: var(--accent-color-1);
